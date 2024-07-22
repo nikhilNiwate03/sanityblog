@@ -1,0 +1,104 @@
+{
+    "packages": [
+        {
+            "name": "nitropack/httpclient",
+            "version": "v1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NitroPack/HttpClient.git",
+                "reference": "cf8f6d7fb94326b56164eeef2b09dab2eeaf1525"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NitroPack/HttpClient/zipball/cf8f6d7fb94326b56164eeef2b09dab2eeaf1525",
+                "reference": "cf8f6d7fb94326b56164eeef2b09dab2eeaf1525",
+                "shasum": ""
+            },
+            "require": {
+                "nitropack/url": "~v1.0.0"
+            },
+            "time": "2023-03-28T10:06:55+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "NitroPack\\HttpClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "NitroPack"
+                }
+            ],
+            "description": "HttpClient library written in PHP, without relying on cURL nor url_fopen.",
+            "keywords": [
+                "client",
+                "http",
+                "library",
+                "nitropack",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/NitroPack/HttpClient/issues",
+                "source": "https://github.com/NitroPack/HttpClient/tree/v1.1.0"
+            },
+            "install-path": "../nitropack/httpclient"
+        },
+        {
+            "name": "nitropack/url",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NitroPack/URL.git",
+                "reference": "93928e93e9b220164dcb0ad395c96fa1393f927c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NitroPack/URL/zipball/93928e93e9b220164dcb0ad395c96fa1393f927c",
+                "reference": "93928e93e9b220164dcb0ad395c96fa1393f927c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
+            },
+            "time": "2022-10-07T13:47:01+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "NitroPack\\Url\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "NitroPack"
+                }
+            ],
+            "description": "URL manipulation library",
+            "keywords": [
+                "library",
+                "manipulation",
+                "nitropack",
+                "php",
+                "url"
+            ],
+            "support": {
+                "issues": "https://github.com/NitroPack/URL/issues",
+                "source": "https://github.com/NitroPack/URL/tree/v1.0.0"
+            },
+            "install-path": "../nitropack/url"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
